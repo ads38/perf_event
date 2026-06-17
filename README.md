@@ -1,5 +1,5 @@
 # 引言
-这是一个Android Studio项目，使用系统调用来实现Android程序的硬件断点。不像rwProcMem33那样需要修改内核重新编译之类的复杂操作。
+这是一个Android Studio项目，使用系统调用来实现Android程序的硬件断点监控。不像rwProcMem33那样需要修改内核重新编译之类的复杂操作。
 本项目仅适用于**ARM64架构程序！**
 ```C
 static long perf_event_open(

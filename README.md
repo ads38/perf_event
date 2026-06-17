@@ -29,6 +29,11 @@ long perf_event_open(
         unsigned long flags);
 ```
 # 使用
+拷贝代码至本地:
+```Shell
+git clone https://github.com/ads38/perf_event.git
+```
+
 手机得是root的，执行以下命令行。
 ```Shell
 echo -1 > /proc/sys/kernel/perf_event_paranoid

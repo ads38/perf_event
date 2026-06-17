@@ -31,8 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void ccc(View v)
     {
-       // this.getRegs();
-        this.getRegs_Mem();
+       // 以下两行代码任选其一来观察效果
+       // this.getRegs(); // 执行断点
+         this.getRegs_Mem();// 内存断点
     }
 
     /**
